@@ -9,52 +9,107 @@
 <h1>Privacy Policy</h1>
 <h2>for: HomeMediStock</h2>
 <hr>
-<p>This Privacy Policy has been effective from December 04, 2025.</p>
-<p>Please read the Privacy Policy before using the application.</p>
+<p>This Privacy Policy has been effective from November 16, 2026.</p>
+<p>HomeMediStock is an Android app for keeping track of the medicines you have at home and their expiry dates. This policy explains what data the app handles, where it is kept and who receives it. Please read it before using the app.</p>
 
-<h3>Data Collection</h3>
-<p>HomeMediStock is designed with your privacy in mind. All of your medication data (names, quantities, doses, expiry dates, descriptions, photos, leaflets, and reminders) is stored locally on your device. We do not collect, store, or transmit any of your personal health information to our servers.</p>
-
-<h3>Automatic Data Collection</h3>
-<p>When you use the application, it may automatically collect limited technical data. This data may include: </p>
+<h3>Summary</h3>
 <ul>
-    <li>IP Address</li>
-    <li>Device type</li>
-    <li>Operating system</li>
-    <li>Language settings</li>
+    <li>Your medicine list, photos, reminders and settings are stored on your phone. We do not receive them.</li>
+    <li>If you allow it, the text read from a packaging photo (and the photo itself when the text is hard to read) is sent to our server and to OpenAI to recognise the medicine details. The app asks before the first scan and you can turn this off at any time.</li>
+    <li>Our server keeps a small anonymous record for each installation: how many scans were used and what was purchased. It contains no name, e-mail address or medicine data.</li>
+    <li>Free users see ads from Google AdMob. Purchases are handled by Google Play and Adapty.</li>
 </ul>
-<p>This data is only used to support app functionality (e.g., localizing language) and is not stored or shared by us.</p>
 
-<h3>OCR Processing (Optional)</h3>
-<p>Premium users (and free users with limits) can use OCR to extract medicine details from photos. If enabled in settings, OCR-extracted data or photos may be processed by third-party AI services. Users can toggle this feature off in settings to keep all processing local. No health data is stored by third-party services.</p>
+<h3>Data Stored on Your Phone</h3>
+<p>Everything you enter in the app is stored locally on your device: medicine names, expiry dates, dosage form and strength, descriptions, leaflet text, tags, photos, reminders and your settings. This data is not sent to us.</p>
+<p>Backups are files that you create yourself and save to a place you choose. A backup can include your photos. We do not receive your backups.</p>
+<p>Reminders and expiry notifications are created on your phone. No notification is sent through our servers.</p>
 
-<h3>How We Use Your Data</h3>
-<p>Your medication data never leaves your device except when optional OCR processing is enabled. We use it only for medication tracking, expiry notifications, dosage reminders, and optional AI-assisted medicine entry.</p>
+<h3>Scanning a Packaging</h3>
+<p>When you scan a packaging, the text on your photos is first read on your phone.</p>
+<p>Before your first scan the app asks whether the scan may also be read in the cloud, which is more accurate. If you allow it:</p>
+<ul>
+    <li>the text read from your photos is sent to our server and passed on to OpenAI, an AI service, which returns the medicine name, strength, quantity, dosage form and expiry date;</li>
+    <li>if the text is hard to read, the photos themselves are sent in the same way.</li>
+</ul>
+<p>Our server does not store the text or the photos. OpenAI processes them under its own terms and may keep them for a limited time before deleting them.</p>
+<p>If you do not allow it, the packaging is read on your phone only and none of the scan's content leaves your device; only the fact that a scan was used is counted. You can change your choice at any time in the app under Settings &gt; Scanning.</p>
+<p>Please do not photograph prescriptions or other documents that show personal details.</p>
 
-<h3>Data Sharing</h3>
-<p>We do not share your data with any third parties except when optional OCR processing is enabled (user-controlled via settings). All other features like photo uploads (max 5 per medicine), leaflet pasting, and reminders operate locally.</p>
+<h3>Data Stored on Our Server</h3>
+<p>To give each installation its monthly number of scans, to apply purchases and to prevent abuse, our server (hosted by Supabase) stores:</p>
+<ul>
+    <li>an anonymous account identifier, created automatically when the app starts. You do not sign up and we do not ask for your name or e-mail address;</li>
+    <li>a device identifier in hashed form. The app sends the Android ID of your device and the server keeps only a scrambled version of it. It is used to restore your scan balance after you reinstall the app and to prevent the free allowance from being claimed repeatedly;</li>
+    <li>the number of scans used, the scans still available and the period your subscription is valid for;</li>
+    <li>purchase records: the store transaction identifier, the product and the number of scans added;</li>
+    <li>a log of cloud scan requests containing only the time and the type of request, not their content.</li>
+</ul>
+<p>Like any online service, our hosting provider also processes your IP address while the app is connected to it.</p>
+
+<h3>Advertising</h3>
+<p>Users without a subscription see banner ads provided by Google AdMob. To show and measure ads, Google may collect and use your device's advertising ID, IP address, device and app information, and your interactions with ads. Depending on your choice, ads may be personalised.</p>
+<p>In the European Economic Area, the United Kingdom and Switzerland the app shows Google's consent message before any ad is loaded. You can change your choice at any time in the app under Settings &gt; Privacy options. You can also reset or delete your advertising ID in your Android settings.</p>
+<p>Subscribers to the ad-free or premium plan see no ads.</p>
+
+<h3>Purchases</h3>
+<p>Subscriptions and one-time scan packs are bought through Google Play, which processes the payment. We never receive your payment card details.</p>
+<p>We use Adapty to manage subscriptions and purchases. Adapty receives information about your purchases and basic technical information about your device, together with the anonymous account identifier of your installation, so that the purchase can be applied to it.</p>
+
+<h3>Analytics</h3>
+<p>The app contains no analytics or crash-reporting tools of our own. Google Play may provide us with anonymous, aggregated statistics about installs and crashes if you have agreed to share them in your device settings.</p>
+
+<h3>Who Receives Data</h3>
+<p>We do not sell your data. Data is shared only with the service providers needed to run the features described above:</p>
+<ul>
+    <li><strong>Supabase</strong> &ndash; hosting of our server and its database. <a href="https://supabase.com/privacy">Privacy policy</a></li>
+    <li><strong>OpenAI</strong> &ndash; reading of scans, only if you allowed cloud reading. <a href="https://openai.com/policies/privacy-policy/">Privacy policy</a></li>
+    <li><strong>Google AdMob</strong> &ndash; ads for users without a subscription. <a href="https://policies.google.com/privacy">Privacy policy</a> and <a href="https://policies.google.com/technologies/partner-sites">how Google uses data from apps</a></li>
+    <li><strong>Google Play</strong> &ndash; payments and app distribution. <a href="https://policies.google.com/privacy">Privacy policy</a></li>
+    <li><strong>Adapty</strong> &ndash; subscription and purchase management. <a href="https://adapty.io/privacy/">Privacy policy</a></li>
+</ul>
+<p>These providers may process data outside your country, including in the United States.</p>
+
+<h3>Personal Data and the GDPR</h3>
+<p>We do not store anything that identifies you directly: no name, e-mail address, phone number or postal address, and no information about your medicines or your health. We cannot tell who is behind an installation.</p>
+<p>The records described above are technical identifiers tied to an installation: the anonymous account identifier, the hashed device identifier and the purchase records. Under the EU General Data Protection Regulation (GDPR) such identifiers still count as personal data, so we treat them as such and explain here why we use them.</p>
+<ul>
+    <li><strong>To provide the app:</strong> the anonymous account, scan counts and purchase records are needed to deliver the scans and plans you use.</li>
+    <li><strong>To prevent abuse:</strong> the hashed device identifier and the request log protect the free allowance and the service. This is our legitimate interest.</li>
+    <li><strong>With your consent:</strong> cloud reading of scans and personalised ads happen only if you agree, and you can withdraw your consent at any time in the app.</li>
+</ul>
+
+<h3>How Long Data Is Kept</h3>
+<p>Data on your phone stays there until you delete it in the app or uninstall the app. Uninstalling removes all of it, except backup files you saved elsewhere.</p>
+<p>The records on our server are kept for as long as they are needed to provide your scan allowance and to document purchases, and are deleted on request (see below).</p>
+
+<h3>Your Rights and Choices</h3>
+<ul>
+    <li>You can view, change, export (backup) and delete your medicine data in the app at any time.</li>
+    <li>You can turn cloud reading of scans on or off under Settings &gt; Scanning.</li>
+    <li>You can change your ad consent under Settings &gt; Privacy options, where it applies.</li>
+    <li>You can ask us for a copy of the server-side records of your installation, or to have them corrected or deleted, through the developer contact shown on the app's Google Play page. Because we do not know who you are, we will help you identify your installation when you contact us.</li>
+    <li>If you are in the European Economic Area or the United Kingdom, you also have the right to object to or restrict the processing of your data, and to lodge a complaint with your local data protection authority.</li>
+</ul>
 
 <h3>Data Security</h3>
-<p>Your data is stored securely on your device using Android's built-in data protection mechanisms. We recommend using your device's screen lock feature for additional security.</p>
+<p>Data on your phone is kept in the app's private storage, protected by Android. We recommend using a screen lock on your device. All communication between the app and the services named above is encrypted in transit.</p>
 
-<h3>Your Rights</h3>
-<p>You have complete control over your data. You can export, delete, or modify your medication entries at any time through the app's interface. You can also disable OCR processing in settings. If you uninstall the app, all data will be removed unless you have created an external backup.</p>
-
-<h3>Third-Party Services</h3>
-<p><strong>Adapty</strong>: We use Adapty to manage in-app subscriptions, premium features, and limit increases. Adapty may collect anonymized technical and purchase-related data to process subscriptions. Adapty does not access your medication data.</p>
-<p><strong>Google AdMob</strong>: We use AdMob to display ads. AdMob may collect anonymized data for ad personalization but does not access your medication data.</p>
-<p><strong>Third-Party AI (Optional OCR)</strong>: When OCR is enabled in settings, photos or extracted data may be sent to third-party AI services for processing medicine details. This can be disabled anytime. These services do not store your data.</p>
+<h3>Children</h3>
+<p>The app is intended for adults and is not directed at children. We do not knowingly collect data from children.</p>
 
 <h3>Permissions Required</h3>
 <p>To function properly, the app may request the following permissions:</p>
 <ul>
-    <li><strong>Internet connection</strong> – Required for subscriptions via Adapty, ads via AdMob, and optional OCR processing.</li>
-    <li><strong>Camera</strong> – Needed for OCR photo scanning to auto-extract medicine details.</li>
-    <li><strong>Storage</strong> – For saving up to 5 photos per medicine entry locally.</li>
+    <li><strong>Internet connection</strong> &ndash; for the scan allowance, cloud reading of scans, purchases and ads.</li>
+    <li><strong>Camera</strong> &ndash; to take photos of a packaging or of a medicine.</li>
+    <li><strong>Notifications</strong> &ndash; to show reminders and expiry alerts.</li>
+    <li><strong>Alarms and start at boot</strong> &ndash; so that reminders arrive at the right time, also after the phone has been restarted.</li>
 </ul>
+<p>The app does not ask for access to your files. Photos you pick and backups you save or open go through Android's own file and photo pickers.</p>
 
 <h3>Changes to This Privacy Policy</h3>
-<p>We reserve the right to change this Privacy Policy at any time. Changes will be effective immediately upon being posted on this page. Please review this page periodically for updates.</p>
+<p>We may update this Privacy Policy when the app changes. The current version is always available on this page, with its effective date at the top. Changes take effect when they are posted here.</p>
 
 </body>
 </html>
